@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Rebekah Saugen</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="jumbotron.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="aboutme.js"></script>
+    <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+    <script src="hi.js"></script>
+    <script type="text/javascript" src="view-source_https___cdnjs.cloudflare.com_ajax_libs_Chart.js_2.6.0_Chart.js"></script>
+    <script type="text/javascript" src="bootbox.min.js"></script>
+
+
+    <!-- Adding bootstrap social -->
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="font-awesome-4.7.0/css/font-awesome.css" rel="stylesheet">
+
+
+     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load("current", {packages:["corechart"]});
+      google.charts.setOnLoadCallback(drawChart);
+      function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+          ['Languages', 'Experience'],
+          ['Java',     40],
+          ['HTML',      20],
+          ['JavaScript',  20],
+          ['JQuery', 10],
+          ['CSS',    10]
+        ]);
+
+        var options = {
+          title: 'Language Proficiency',
+          pieHole: 0.4,
+          pieSliceTextStyle: {
+            color: 'black',
+          },
+            //Green, blue, purple, lime, pink
+         colors:['#4caf50','#4dd0e1','#ba68c8', '#d4e157', '#ef5350'],
+
+          backgroundColor:'transparent',
+          legend: 'none'
+        };
+
+        var chart = new google.visualization.PieChart(document.getElementById('donutchart'));
+        chart.draw(data, options);
+      }
+    </script>
+
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<link href = "https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css"
+         rel = "stylesheet">
+      <script src = "https://code.jquery.com/jquery-1.10.2.js"></script>
+      <script src = "https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+      
+
+
+
+      <script type="text/javascript">
+         <!--
+            function Warn() {
+               alert ("This is a warning message!");
+               document.write ("This is a warning message!");
+            }
+         //-->
+      </script>
+
+
+
+      <!-- bootbox code -->
+    <script src="bootbox.min.js"></script>
+    <script>
+        $(document).on("click", ".alert", function(e) {
+            bootbox.alert("Hello world!", function() {
+                console.log("Alert Callback");
+            });
+        });
+    </script>
+      
+
+  </head>
+
+
+
+   <script>
+function myFunction() {
+  
+}
+ </script>
+
+
+
+
+  <script>
+function toContactPage() {
+    location.href = "contact.html";
+}
+</script>
+
+
+
+
+  <body>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top" >
+      <div class="container">
+        <div class="nameTitle"><b>Rebekah Saugen</div>
+        <div class="nameTitle2"><b>Software Engineer</b></div>
+      </div>
+    </nav>
+
+    <div class="jumbotron">
+      <div class="container">
+        <div class="leftHolder">
+        <img src="me_brick.jpg" alt="Rebekah Saugen" width="500" height="500"> 
+        <div id="donutchart" style="width: 370px; height: 400px;"></div>
+</div>
+       
+  <p>Content here. <a class="alert" href=#>Alert!</a></p>
+
+        <div class="main">
+
+        <h1>A Little Bit About Me...</h1>
+      
+        <p><br> <b>Education </b></br>
+          Bachelor of Science, Computer Science
+          <br> 
+          Winona State University
+          <br> 
+        </p>
+
+        <hr>
+
+        <p>
+          <br> <b>Skills </b></br>
+          Languages: Java, HTML, CSS, JavaScript, JQuery,
+          Technologies: Android development, Automated testing with Selenium, Cucumber, Spok, Geb, Bluetooth and TCP Protocol
+          <br> 
+        </p>
+
+          <hr>
+
+        <p>
+          <br> <b>Work Experience </b></br>
+          <ul style="list-style-type:square">
+          <li>Medtronic
+          <br> 
+          Software Engineer       August 2016-Present </li>
+          <br> 
+          <br>
+           Medtronic
+          <br> 
+          Associate Software Engineer       May 2015-August 2016
+          <br> 
+
+          </ul>
+        </p>
+
+        <hr>
+        <br>
+    
+        <p>
+          <a class="btn btn-info btn-lg" href="RebekahSaugenResume" download> <span class="glyphicon glyphicon-download-alt"></span> Download Resume</p></a></p>
+      </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="col-md-4">
+          <h2><b>Contact</b></h2>
+          <p>Please contact me with career inquiries, mentorship opportunities, and for general questions.</p>
+          <p><a class="btn btn-info btn" href="mailto:rsaugen10@gmail.com">I'm Interested &raquo;</a></p>
+         </form>
+          <br>
+      <span  class="fa fa-git"></span>
+   <span  class="fa fa-stack-overflow"></span>
+  <span class="fa fa-linkedin"></span>
+        </div>
+      </div>
+
+      <hr>
+
+      <footer>
+        <p>&copy; Rebekah Saugen</p>
+      </footer>
+    </div> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+      <script src=".aboutme.js"></script>
+  </body>
+</html>
+

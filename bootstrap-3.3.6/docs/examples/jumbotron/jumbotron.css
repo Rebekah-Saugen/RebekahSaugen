@@ -1,0 +1,175 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  box-shadow: none;!important;
+  padding-top: 30px; 
+  padding-bottom: 15px;
+  /*background-image: url("bg-9-full.jpg");*/
+  background-color: #ffbb33 !important;
+
+}
+
+
+ h1 {
+   font: 10px Courier;
+   font-size: 55px !important;
+ }
+
+
+ h2 {
+   font: 20px Courier;
+ }
+
+p {
+    font-size: 14px !important;
+}
+
+
+
+hr { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+    background-color: #ffbb33;
+}
+
+#donutchart {
+  margin-top: 23%;
+    margin-bottom: 10%;
+   /*vertical-align:top;*/
+ /*  margin-top: 7%;
+     /*margin-left:5%;*/
+    /*
+     background-color:#ffbb33;
+     color:#ffbb33;*/
+      float: left;
+      left: 12%;
+      /*bottom: 10px;*/
+      
+      position: absolute;
+}
+
+  .leftHolder {
+    box-shadow: none;!important;
+    margin-top: 8%;
+    margin-right: 35%;
+    background-size: 50px 60px;
+    background-color: blue;
+    background-position: left;
+
+    /*vertical-align:top;*/
+      /*margin-top: 0%;*/
+       /*margin-left: 80%;*/
+         /*float: left;*/
+   /*       float: left;*/
+  }
+
+
+
+
+
+  .main {
+     box-shadow: none;!important;
+      text-shadow: none;!important;
+    vertical-align:top;
+      margin-top: 0%;
+       margin-left: 40%;
+      
+        width: 60%;
+  margin-bottom: 5%;
+  padding: 30px;
+  background-color: #d4e157;
+  }
+
+    .container {
+      margin-top: 0%;
+      vertical-align:top;
+      margin-left: 10%;
+      margin-right: 20%;!important;
+
+  }
+
+.navbar navbar-inverse navbar-fixed-top {
+  height: 500px; !important;
+  line-height: 150px;
+    padding-top: 0;
+
+}
+
+
+
+
+.navbar {
+  background-color:#fafafa; !important;
+  color: #212121; !important;
+  border-color: transparent; !important;
+}
+
+.nameTitle {
+    color: black;
+    padding-top: 10px;
+     height: 50px; !important;
+     font-size: 26px;
+}
+
+.nameTitle2 {
+    color: black;
+    height: 35px; !important;
+}
+
+
+
+img {
+    box-shadow: none;!important;
+  vertical-align: 
+  border-radius: 100%;
+  height: 65%;
+  width: 55%;
+  float: left;
+  border-style: double;
+ /* margin-right: 5%;*/
+  /*border-radius: 50%;*/
+  border: 13px solid white;
+  border-color:#3E4551;
+/*   #FF8800;*/
+  padding: 15px;
+
+}
+
+
+
+
+.fa {
+  padding: 15px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  margin-bottom: 15px;
+}
+
+/* Set a specific color for each brand */
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-git {
+  background: black;
+  color: white;
+}
+
+.fa-stack-overflow {
+  background: white;
+  color: orange;
+}
